@@ -19,6 +19,7 @@ public class Mage {
         String result = "";
         if (this.type.equals("fire") && mage.type.equals("ice")) {
             result = this.name;
+            System.out.println(this.name);
         }
         if (this.type.equals("ice") && mage.type.equals("fire")) {
             result = mage.name;
