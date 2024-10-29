@@ -5,5 +5,6 @@ public class Main {
         mage1.fight(mage2);
         mage1.getInfo();
         mage2.getInfo();
+        mage2.fight(mage1);
     }
 }
